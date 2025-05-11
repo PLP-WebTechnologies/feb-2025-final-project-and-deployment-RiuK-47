@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>ShopEasy - Cart</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>ShopEasy</h1>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li>
+            <a href="cart.html" class="active"
+              >Cart (<span id="cart-count">0</span>)</a
+            >
+          </li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="cart">
+        <h2>Your Shopping Cart</h2>
+        <div class="cart-items">
+          <!-- Dynamically loaded from JS -->
+        </div>
+        <div class="cart-total">
+          <h3>Total: $<span id="total-price">0.00</span></h3>
+          <button class="btn checkout-btn">Proceed to Checkout</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2023 ShopEasy. All rights reserved.</p>
+    </footer>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>
