@@ -7,7 +7,7 @@ A fully responsive e-commerce website built with HTML5, CSS3, and JavaScript, fe
 ✅ Mobile-first responsive design
 ✅ Form validation
 
-🔗 Live Demo: https://shopeasy-demo.netlify.app (Replace with your link)
+🔗 Live Demo: https://shoprahisi.netlify.app/
 
 🛠️ Technologies Used
 HTML5
